@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <div className=" bg-white ">
-      <div className="flex justify-center flex-col items-center md:justify-between md:flex-row">
+      <div className="flex justify-center flex-col items-center md:justify-between md:flex-col xl:flex-row">
         <div className="flex justify-center items-center p-4">
           <a href="/" className="text-md mx-4 md:mx-14 xl:mx-16 underline hover:text-blue-600">
             Home
@@ -20,19 +20,19 @@ const Footer = () => {
           </a>
         </div>
         <div className="flex justify-center items-center p-4">
-          <a href="#" className="text-sm mx-4 hover:underline">
+          <a href="#" className="text-sm text-sky-600 mx-4 hover:underline rounded-md border-2 border-sky-600 p-2 hover:bg-sky-600 hover:text-white">
             Twitter
           </a>
-          <a href="#" className="text-sm mx-4 hover:underline">
+          <a href="#" className="text-sm  mx-4 hover:underline rounded-md border-2 border-black p-2 hover:bg-black hover:text-white">
             Github
           </a>
-          <a href="#" className="text-sm mx-4 hover:underline">
+          <a href="#" className="text-sm text-pink-600 mx-4 hover:underline rounded-md border-2 border-pink-600 p-2 hover:bg-pink-600 hover:text-white">
             Instagram
           </a>
-          <a href="#" className="text-sm mx-4 hover:underline">
+          <a href="#" className="text-sm text-blue-600 mx-4 hover:underline rounded-md border-2 border-blue-600 p-2 hover:bg-blue-600 hover:text-white">
             Linkedin
           </a>
-          <a href="#" className="text-sm mx-4 hover:underline">
+          <a href="#" className="text-sm text-red-600 mx-4 hover:underline rounded-md border-2 border-red-600 p-2 hover:bg-red-600 hover:text-white">
             Youtube
           </a>
           

@@ -3,8 +3,8 @@
 const About = () => {
   return (
     <>
-    
-    
+      
+
     </>
   )
 }
