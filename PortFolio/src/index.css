@@ -8,3 +8,6 @@ body{
     /* background:url(./assets/1337140.webp) no-repeat center fixed; */
 
 }
+*{
+    scroll-behavior: smooth;
+}

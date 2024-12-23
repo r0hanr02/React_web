@@ -3,7 +3,7 @@
 const Form = () => {
  
   return (
-    <div className="bg-slate-900 text-white">
+    <div id="contact" className="bg-slate-900 text-white">
       <h1 className="text-4xl underline font-extrabold text-BLACK text-center">
         Contact Form
       </h1>

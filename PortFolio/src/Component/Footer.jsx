@@ -7,15 +7,15 @@ const Footer = () => {
             Home
           </a>
           <span className="mx-4 text-sm">|</span>
-          <a href="/about" className="text-md mx-4 md:mx-14 xl:mx-16 underline hover:text-blue-600">
+          <a href="#about" className="text-md mx-4 md:mx-14 xl:mx-16 underline hover:text-blue-600">
             About
           </a>
           <span className="mx-4 text-sm">|</span>
-          <a href="/contact" className="text-md mx-4 md:mx-14 xl:mx-16 underline hover:text-blue-600">
+          <a href="#contact" className="text-md mx-4 md:mx-14 xl:mx-16 underline hover:text-blue-600">
             Contact
           </a>
           <span className="mx-4 text-sm">|</span>
-          <a href="/projects" className="text-md mx-4 md:mx-14 xl:mx-16 underline hover:text-blue-600">
+          <a href="#projects" className="text-md mx-4 md:mx-14 xl:mx-16 underline hover:text-blue-600">
             Projects
           </a>
         </div>
