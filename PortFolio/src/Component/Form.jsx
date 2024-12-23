@@ -85,8 +85,7 @@ const Form = () => {
           <p><span >Address:</span> 123 Main St, City, State, Zip Code</p>
           <p><span >Email:</span>  info@example.com</p>
           {/* <p><a href="">Google Map here:</a></p> */}
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14891.489733509465!2d72.88657024648971!3d19.065162752198322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1734851568529!5m2!1sen!2sin"
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1172075.4026278483!2d-121.91745948634713!3d37.25497001089481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fcae48af93ff5%3A0xb99d8c0aca9f717b!2sSan%20Jose%2C%20CA%2C%20USA!5e0!3m2!1sen!2sin!4v1734961946301!5m2!1sen!2sin"
             style={{ border: 0 }}
             allowfullscreen=""
             loading="lazy"
@@ -99,3 +98,5 @@ const Form = () => {
 };
 
 export default Form;
+
+// <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1172075.4026278483!2d-121.91745948634713!3d37.25497001089481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fcae48af93ff5%3A0xb99d8c0aca9f717b!2sSan%20Jose%2C%20CA%2C%20USA!5e0!3m2!1sen!2sin!4v1734961946301!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

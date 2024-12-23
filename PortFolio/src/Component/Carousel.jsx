@@ -2,10 +2,10 @@ import { useState, useEffect } from "react";
 
 const Carousel = () => {
   const carouselItems = [
-    { id: 1, title: "Agent Batman", image: "https://i.pinimg.com/1200x/e0/3d/84/e03d849ef1359fa4f8cca713c6da213d.jpg" },
-    { id: 2, title: "Agent Tangiro", image: "https://i.pinimg.com/1200x/ed/e2/07/ede207095a48f0b2ccc60fe9916fbb4e.jpg" },
-    { id: 3, title: "Agent Thorfinn", image: "https://i.pinimg.com/1200x/25/f5/0b/25f50b6306707e7ac7d0814267529117.jpg" },
-    { id: 4, title: "Agent Colossal Titan", image: "https://i.pinimg.com/1200x/a6/73/b0/a673b08450d3fa4330b1f9489475d3a9.jpg" },
+    { id: 1, title: "Gym", image: "https://i.pinimg.com/1200x/76/c7/6a/76c76a7a19d36104ad013fe959f5f8ef.jpg" },
+    { id: 2, title: "Leg Section", image: "https://i.pinimg.com/1200x/de/74/2d/de742dcedb698dbbb2584861cd4a5f32.jpg" },
+    { id: 3, title: "Cardio Section", image: "https://i.pinimg.com/1200x/3e/32/cc/3e32cc7454f92b29ca3a544dd34c7c42.jpg" },
+    { id: 4, title: "Arm Section", image: "https://i.pinimg.com/1200x/56/66/a2/5666a2299c1ca5ae5dfe112982144386.jpg" },
   ];
 
   const [currentSlide, setCurrentSlide] = useState(0);

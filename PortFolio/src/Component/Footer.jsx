@@ -1,21 +1,21 @@
 const Footer = () => {
   return (
-    <div className=" bg-white ">
+    <div className=" bg-slate-700 ">
       <div className="flex justify-center flex-col items-center md:justify-between md:flex-col xl:flex-row">
         <div className="flex justify-center items-center p-4">
-          <a href="/" className="text-md mx-4 md:mx-14 xl:mx-16 underline hover:text-blue-600">
+          <a href="/" className="text-md text-white mx-4 md:mx-14 xl:mx-16 underline hover:text-blue-600">
             Home
           </a>
           <span className="mx-4 text-sm">|</span>
-          <a href="#about" className="text-md mx-4 md:mx-14 xl:mx-16 underline hover:text-blue-600">
+          <a href="#about" className="text-md text-white mx-4 md:mx-14 xl:mx-16 underline hover:text-blue-600">
             About
           </a>
           <span className="mx-4 text-sm">|</span>
-          <a href="#contact" className="text-md mx-4 md:mx-14 xl:mx-16 underline hover:text-blue-600">
+          <a href="#contact" className="text-md text-white mx-4 md:mx-14 xl:mx-16 underline hover:text-blue-600">
             Contact
           </a>
           <span className="mx-4 text-sm">|</span>
-          <a href="#projects" className="text-md mx-4 md:mx-14 xl:mx-16 underline hover:text-blue-600">
+          <a href="#projects" className="text-md text-white mx-4 md:mx-14 xl:mx-16 underline hover:text-blue-600">
             Projects
           </a>
         </div>
@@ -40,24 +40,24 @@ const Footer = () => {
         </div>
       </div>
       <hr  className="m-2 border-black"/>
-      <div className="flex items-center justify-around">
-        <span className="text-sm text-gray-600 underline p-2 cursor-pointer
+      <div className="flex items-center justify-around ">
+        <span className="text-sm text-white underline p-2 cursor-pointer
         ">
           Condition
         </span>
-        <span className="text-sm text-gray-600 underline p-2 cursor-pointer
+        <span className="text-sm text-white underline p-2 cursor-pointer
         ">
           Accessibility Statement
         </span>
-        <span className="text-sm text-gray-600 underline p-2 cursor-pointer
+        <span className="text-sm text-white underline p-2 cursor-pointer
         ">
           Siteman
         </span>
-        <span className="text-sm text-gray-600 underline p-2 cursor-pointer
+        <span className="text-sm text-white underline p-2 cursor-pointer
         ">
           Cookie Policy
         </span>
-        <span className="text-sm text-gray-600 underline p-2 cursor-pointer
+        <span className="text-sm text-white underline p-2 cursor-pointer
         ">
           Do Not Sell My Personal Information
         </span>
