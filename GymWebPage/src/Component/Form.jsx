@@ -89,7 +89,7 @@ const Form = () => {
             style={{ border: 0 }}
             allowfullscreen=""
             loading="lazy"
-            className="w-[500px] h-[600px] md:w-full"
+            className="w-full md:w-full"
           ></iframe>
         </div>
       </div>
